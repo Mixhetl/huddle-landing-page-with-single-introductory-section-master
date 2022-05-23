@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
 
     <link
       rel="icon"
@@ -15,17 +14,27 @@
       href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/styles.css" />
     <title>
       Frontend Mentor | Huddle landing page with single introductory section
     </title>
   </head>
 
-  <body>
+  <body class="body">
     <header class="header">
-      <h1 class="title">Huddle</h1>
-      <img src="images/illustration-mockups.svg" alt="illustration-mockups" />
+      <div class="header_title">
+        <img src="icons/bx-message-square-dots.svg" alt="message icon" />
+        <h1 class="title">Huddle</h1>
+      </div>
+      <img src="images/illustration-mockups.svg" alt="illustration-mockups" class="img"/>
     </header>
+
     <main class="main">
       <h2 class="subtitle">Build The Community Your Fans Will Love</h2>
       <p class="paragraph">
@@ -35,17 +44,23 @@
       </p>
       <button class="btn">Register</button>
     </main>
-    <footer>
+
+    <footer class="footer"> 
       <nav class="social-media">
-        <a href="#"><img src="icons/bxl-facebook-circle.svg" alt="facebook icon"></a>
-        <a href="#"><img src="icons/bxl-twitter.svg" alt="twitter icon"></a>
-        <a href="#"><img src="icons/bxl-instagram.svg" alt="instagram icon"></a>
+        <a href="#"
+          ><img src="icons/bxl-facebook-circle.svg" alt="facebook icon"
+        /></a>
+        <a href="#"><img src="icons/bxl-twitter.svg" alt="twitter icon" /></a>
+        <a href="#"
+          ><img src="icons/bxl-instagram.svg" alt="instagram icon"
+        /></a>
       </nav>
+
       <p class="attribution">
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
           >Frontend Mentor</a
-        >. Coded by <a href="#">Your Name Here</a>.
+        >. Coded by <a href="#">Luis Malquiel Hernández Avendaño</a>.
       </p>
     </footer>
   </body>

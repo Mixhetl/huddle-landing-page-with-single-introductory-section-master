@@ -84,6 +84,10 @@ body {
   color: #fff;
 }
 
+.icon:hover {
+  color: var(--soft-magenta);
+}
+
 /*Footer section*/
 .footer {
   text-align: center;
@@ -145,5 +149,15 @@ p {
     width: 100%;
     flex-direction: row-reverse;
     justify-content: space-between;
+  }
+
+  .social-media {
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .icon {
+    width: 2.5rem;
   }
 }

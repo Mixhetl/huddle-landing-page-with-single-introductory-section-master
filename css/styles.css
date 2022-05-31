@@ -109,7 +109,7 @@ p {
 
 /*This is the second part, when viewport size is (1440px or more width)*/
 
-@media (min-width: 1440px) {
+@media (min-width: 1200px) {
   body {
     background-image: url("../images/bg-desktop.svg");
     background-repeat: no-repeat;
